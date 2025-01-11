@@ -15,6 +15,6 @@ RUN git clone https://github.com/tianocore/edk2.git -b UDK2018
 WORKDIR /app/edk2
 RUN git submodule update --init
 RUN make -C BaseTools
-ENTRYPOINT ["startup/entry.sh"]
+ENTRYPOINT ["./startup/entry.sh"]
 
 
