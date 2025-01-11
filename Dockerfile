@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 #preparation du systeme
 RUN	apt-get update -y
-RUN apt-get install -y nasm uuid-dev build-essential git python bash iasl vim
+RUN apt-get install -y nasm uuid-dev build-essential git python bash iasl vim ovmf
 
 #preparation du framework edk2
 RUN mkdir /app/
