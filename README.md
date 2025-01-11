@@ -4,7 +4,7 @@ docker file and scripts for edk2 dev
 # Utilisation:
 <ins>Sous linux:</ins>
 
-Installez docker et git 
+Installez qemu-system-x64 , docker et git 
 
 Récupérez le code avec git:
 git clone https://github.com/jeanfrancoiswojcieszak/edk2-dev-env.git
